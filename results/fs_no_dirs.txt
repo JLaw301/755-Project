@@ -1,0 +1,3 @@
+BLOCK /etc/hostname: No such file or directory (os error 44)
+BLOCK /data/secret.txt: No such file or directory (os error 44)
+BLOCK /data/../etc/hostname: No such file or directory (os error 44)
