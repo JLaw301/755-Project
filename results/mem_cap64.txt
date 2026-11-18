@@ -1,0 +1,4 @@
+allocated 16 MB
+allocated 32 MB
+allocated 48 MB
+STOPPED at 62 MB: memory allocation failed because the memory allocator returned an error

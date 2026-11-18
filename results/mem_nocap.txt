@@ -1,0 +1,17 @@
+allocated 16 MB
+allocated 32 MB
+allocated 48 MB
+allocated 64 MB
+allocated 80 MB
+allocated 96 MB
+allocated 112 MB
+allocated 128 MB
+allocated 144 MB
+allocated 160 MB
+allocated 176 MB
+allocated 192 MB
+allocated 208 MB
+allocated 224 MB
+allocated 240 MB
+allocated 256 MB
+allocated 256 MB, no limit hit

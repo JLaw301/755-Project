@@ -1,0 +1,17 @@
+linear memory size: 1114112 bytes
+pointer size: 32 bits
+trying to read address 0x111000 (past the end)...
+Error: failed to run main module `target/wasm32-wasip1/release/oob_read.wasm`
+
+Caused by:
+    0: failed to invoke command default
+    1: error while executing at wasm backtrace:
+    0:    0x3ef - oob_read.wasm!oob_read[38a10e62821d6fd3]::main
+    1:    0x318 - oob_read.wasm!std[7c0a0f0b853524cc]::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+    2:    0x32b - oob_read.wasm!std[7c0a0f0b853524cc]::rt::lang_start::<()>::{closure#0}
+    3:   0x279c - oob_read.wasm!std[7c0a0f0b853524cc]::rt::lang_start_internal
+    4:    0x459 - oob_read.wasm!__main_void
+    5:    0x2f4 - oob_read.wasm!_start
+    2: memory fault at wasm address 0x111000 in linear memory of size 0x110000
+    3: wasm trap: out of bounds memory access
+
